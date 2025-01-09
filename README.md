@@ -17,18 +17,14 @@ To test the app, you can log in as an admin or an employee using the following c
 Admin:
 Email: ad@ad.com
 Password: 123
+-----------------------
 Employee:
 Email: a@a.com
 Password: 123
-Employee Details
 
-To view the employee dashboard, you can log in as an employee using the above credentials. The employee dashboard displays the following information:
+-----------------------------------
 
-Employee Name: Arjun
-Employee Email: a@a.com
-Assigned Tasks: View a list of tasks assigned to the employee.
-Task Status: Update the status of assigned tasks.
-How to Use the App
+To view the employee and Admin dashboard, you can log in as an employee or admin using the above credentials. The employee dashboard displays the following information:
 
 Log in as an admin or an employee using the provided credentials.
 If you're an admin, create and assign tasks to employees.
