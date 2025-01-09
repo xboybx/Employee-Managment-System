@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+* {
+  color: #fff;
+}
+
+body {
+  background-color: #2f2f2f;
+}
+
+#tasksmain::-webkit-scrollbar {
+  background-color: transparent;
+  height: 5px;
+}
+
+#AdminTaskList::-webkit-scrollbar {
+  background-color: transparent;
+  height: 5px;
+}
+
+
+
+/* #tasklist::-webkit-scrollbar-thumb {
+  background-color: rgb(143, 143, 143);
+  border-radius: 50px;
+} */
+
+#tasksmain {
+  height: 472px;
+}
+
+
+#taks_indv {
+  max-height: auto;
+  width: 400px;
+}
+
+.colors {
+  background-image: linear-gradient(to right, #FF69B4, #33CC33, #6666CC, #FF9900, #CC33CC);
+  background-size: 1000px 100%;
+}
+
+
+
+
+#wave {
+  font-size: 48px;
+  /* Adjust the size of the emoji */
+  animation: wave 1.5s infinite cubic-bezier(0.42, 0, 0.58, 1);
+  display: inline-block;
+  transform-origin: 70% 70%;
+  /* Adjust the pivot point for the rotation */
+}
+
+@keyframes wave {
+
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  5% {
+    transform: rotate(5deg);
+  }
+
+  10% {
+    transform: rotate(10deg);
+  }
+
+  15% {
+    transform: rotate(15deg);
+  }
+
+  20% {
+    transform: rotate(18deg);
+  }
+
+  25% {
+    transform: rotate(20deg);
+  }
+
+  30% {
+    transform: rotate(18deg);
+  }
+
+  35% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(10deg);
+  }
+
+  45% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  55% {
+    transform: rotate(-5deg);
+  }
+
+  60% {
+    transform: rotate(-10deg);
+  }
+
+  65% {
+    transform: rotate(-15deg);
+  }
+
+  70% {
+    transform: rotate(-18deg);
+  }
+
+  75% {
+    transform: rotate(-20deg);
+  }
+
+  80% {
+    transform: rotate(-18deg);
+  }
+
+  85% {
+    transform: rotate(-15deg);
+  }
+
+  90% {
+    transform: rotate(-10deg);
+  }
+
+  95% {
+    transform: rotate(-5deg);
+  }
+}
